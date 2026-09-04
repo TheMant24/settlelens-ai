@@ -1,0 +1,9 @@
+transaction_id,merchant_id,amount,currency,status,gateway_timestamp,processor_ref
+txn_success,merch_success,99.99,USD,SETTLED,2026-01-01T10:00:00Z,gw_success
+txn_delayed_bank,merch_delayed,149.50,USD,SETTLED,2026-01-01T10:05:00Z,gw_delayed
+txn_failed,merch_failed,75.25,USD,FAILED,2026-01-01T10:10:00Z,gw_failed
+txn_missing_ledger,merch_missing,200.00,USD,SETTLED,2026-01-01T10:15:00Z,gw_missing
+txn_amount_mismatch,merch_mismatch,50.00,USD,SETTLED,2026-01-01T10:20:00Z,gw_mismatch
+txn_duplicate_1,merch_dup,120.00,USD,SETTLED,2026-01-01T10:25:00Z,gw_dup
+txn_duplicate_2,merch_dup,120.00,USD,SETTLED,2026-01-01T10:26:00Z,gw_dup
+txn_unknown,merch_unknown,85.99,USD,SETTLED,2026-01-01T10:30:00Z,gw_unknown

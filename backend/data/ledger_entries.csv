@@ -1,0 +1,8 @@
+transaction_id,ledger_id,account,amount,entry_type,posted_date,reconciled
+txn_success,led_success,acc_success,99.99,CREDIT,2026-01-02,true
+txn_delayed_bank,led_delayed,acc_delayed,149.50,CREDIT,2026-01-02,true
+txn_failed,led_failed,acc_failed,0.00,CREDIT,2026-01-02,false
+txn_amount_mismatch,led_mismatch,acc_mismatch,60.00,CREDIT,2026-01-02,true
+txn_duplicate_1,led_dup1,acc_dup,120.00,CREDIT,2026-01-02,true
+txn_duplicate_2,led_dup2,acc_dup,120.00,CREDIT,2026-01-02,true
+txn_unknown,led_unknown,acc_unknown,0.00,CREDIT,2026-01-02,false

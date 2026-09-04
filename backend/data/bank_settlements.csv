@@ -1,0 +1,8 @@
+processor_ref,settlement_id,amount,status,bank_timestamp,settlement_date
+gw_success,set_success,99.99,SETTLED,2026-01-01T14:00:00Z,2026-01-02
+gw_delayed,set_delayed,149.50,SETTLED,2026-01-02T14:00:00Z,2026-01-03
+gw_failed,,0.00,FAILED,2026-01-01T14:05:00Z,2026-01-02
+gw_missing,set_missing,200.00,SETTLED,2026-01-01T14:10:00Z,2026-01-02
+gw_mismatch,set_mismatch,55.00,SETTLED,2026-01-01T14:15:00Z,2026-01-02
+gw_dup,set_dup,120.00,SETTLED,2026-01-01T14:20:00Z,2026-01-02
+gw_unknown,,0.00,UNKNOWN,2026-01-01T14:25:00Z,2026-01-02
