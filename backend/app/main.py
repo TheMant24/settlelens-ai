@@ -8,12 +8,15 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from .api.investigate import router as investigate_router
+from .services.data_loader import seed_database
 from .database import Base, engine
 
 # Create database tables
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
+
+seed_database()
     title="SettleLens AI",
     description="AI-powered fintech settlement investigation agent",
     version="1.0.0",
