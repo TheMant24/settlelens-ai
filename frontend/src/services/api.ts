@@ -3,7 +3,7 @@
 import type { InvestigateRequest, InvestigateResponse, ErrorResponse } from '../types/investigation';
 
 // API URL from environment variables (Vite)
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://settlelens-ai.onrender.com';
 
 export class ApiError extends Error {
   status: number;
