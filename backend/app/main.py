@@ -16,11 +16,12 @@ Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
 
-seed_database()
     title="SettleLens AI",
     description="AI-powered fintech settlement investigation agent",
     version="1.0.0",
 )
+
+seed_database()
 
 # CORS configuration for React frontend
 # Allow common development origins
